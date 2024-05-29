@@ -26,6 +26,10 @@ header {
     gap: 12px;
     border-bottom: 1px solid grey;
     padding: 30px 80px;
+    margin-bottom: 80px;
+    position: sticky;
+    top: 0px;
+    background-color: #070e27;
 }
 
 .header-title a {
@@ -35,9 +39,13 @@ header {
     font-weight: 500;
 }
 
+.navigation {
+    margin-right: 20px;
+}
+
 .nav-list { 
     display: flex;
-    gap: 12px;
+    gap: 20px;
     letter-spacing: 1px;
 }
 
@@ -63,5 +71,69 @@ header {
     letter-spacing: 1px;
     cursor: pointer;
 }
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+
+#hero {
+    padding: 0px 80px 0 80px;
+    margin-bottom: 80px;
+}
+
+.hero-info {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.description {
+    margin-left: auto;
+}
+
+.hero-desc {
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+
+.pricing-btn {
+    border-radius: 8px;
+    background-color: #0059f7;
+    border: 1px solid #0059f7;
+    color: #fff;
+    padding: 14px 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.partners-list {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-between;
+    max-width: 80%;
+    border-bottom: 1px solid grey;
+} 
+
+.partner {
+    margin: 80px 0 80px 0;
+}
+
+
 
 
