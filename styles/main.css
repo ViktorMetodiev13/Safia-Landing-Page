@@ -1,0 +1,67 @@
+/* 
+Bg - #070e27
+login button - #162044
+primary blue - #0059f7
+p colors - #7f8cb7 
+*/
+
+body {
+    background-color: #070e27;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+p {
+    color: #7f8cb7;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid grey;
+    padding: 30px 80px;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.nav-list { 
+    display: flex;
+    gap: 12px;
+    letter-spacing: 1px;
+}
+
+.nav-login-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 12px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.login {
+    background-color: #1D3B72;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px 18px;
+    border: 1px solid #1D3B72;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
