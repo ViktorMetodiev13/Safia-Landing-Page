@@ -84,21 +84,24 @@ header {
 }
 
 .hero-info {
-    max-width: 80%;
+    width: 80%;
     margin: auto;
     display: flex;
     align-items: center;
     margin-bottom: 80px;
+    margin-left: auto;
 }
+
 
 .hero-title {
     font-size: 48px;
     font-weight: 700;
-    margin-right: auto;
+    width: 40%;
+    margin-right: calc(40%);
 }
 
 .description {
-    margin-left: auto;
+    width: 60%;
 }
 
 .hero-desc {
@@ -226,6 +229,95 @@ i {
     color: #fff;
     margin-left: 8px;
     margin-bottom: 0px;
+}
+
+/* HOW */
+
+#how {
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.how-subtitle {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.how-title {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    font-size: 36px;
+}
+
+.how-article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.group-img {
+    width: 50%;
+}
+
+.content {
+    width: 30%;
+}
+
+.content-title {
+    color: #fff;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.how-article:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* FOOTER  */
+
+footer {
+    background-color: #162044;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0 30px 0;
+}
+
+.socials-list {
+    display: flex;
+    gap: 32px;
+}
+
+.fab {
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+
+.fab:hover {
+    color: #0059f7;
+}
+
+.terms-list {
+    display: flex;
+    gap: 24px;
+}
+
+.terms-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.copy-right {
+    color: #fff;
 }
 
 
