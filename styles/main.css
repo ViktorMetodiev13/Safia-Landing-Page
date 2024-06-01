@@ -84,7 +84,7 @@ header {
 }
 
 .hero-info {
-    width: 80%;
+    width: 60%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -94,7 +94,7 @@ header {
 
 
 .hero-title {
-    font-size: 48px;
+    font-size: 44px;
     font-weight: 700;
     width: 40%;
     margin-right: calc(40%);
@@ -106,21 +106,22 @@ header {
 
 .hero-desc {
     margin-bottom: 24px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .pricing-btn {
-    border-radius: 8px;
+    border-radius: 6px;
     background-color: #0059f7;
     border: 1px solid #0059f7;
     color: #fff;
-    padding: 14px 20px;
+    padding: 10px 20px;
     letter-spacing: 1px;
     cursor: pointer;
 }
 
 .hero-img {
-    width: 100%;
+    margin: auto;
+    width: 80%;
 }
 
 .partners-list {
@@ -129,7 +130,7 @@ header {
     align-items: center;
     gap: 12px;
     justify-content: space-between;
-    max-width: 80%;
+    max-width: 65%;
     border-bottom: 1px solid grey;
 } 
 
@@ -234,7 +235,7 @@ i {
 /* HOW */
 
 #how {
-    max-width: 80%;
+    max-width: 60%;
     margin: auto;
     margin-bottom: 80px;
 }
