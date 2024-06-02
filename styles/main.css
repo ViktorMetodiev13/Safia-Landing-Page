@@ -307,6 +307,7 @@ i {
 .plans {
     display: flex;
     gap: 28px;
+    align-items: end;
 }
 
 .plan {
@@ -318,6 +319,7 @@ i {
 
 .plan:nth-child(even) {
     background-color: #162044;
+    margin-bottom: 48px;
 }
 
 .plan:nth-child(even) .plan-button {
