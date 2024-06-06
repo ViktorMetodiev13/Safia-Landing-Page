@@ -41,4 +41,4 @@ To view the website, simply open the `index.html` file in your preferred web bro
    ```bash
    open index.html  # For MacOS
    start index.html  # For Windows
-   xdg-open index.html  $ For Linux
+   xdg-open index.html  # For Linux
