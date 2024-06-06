@@ -333,8 +333,6 @@ i {
     letter-spacing: 1px;
 }
 
-/*  */
-
 .plan-heading {
     border-bottom: 1px solid grey;
     padding-bottom: 28px;
@@ -359,7 +357,7 @@ i {
 }
 
 .fa-check-circle {
-    background-color: #4e5a85;
+    background-color: none;
     border-radius: 50%;
 }
 
@@ -420,6 +418,141 @@ footer {
 }
 
 /* make the site responsive */
+
+@media screen and (max-width: 1450px) {
+    /* how */
+
+    .content {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+
+    /* Hero */
+    .hero-info {
+        width: 80%;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .partners-list {
+        max-width: 80%;
+    } 
+
+    /* Features */
+
+    #features {
+        max-width: 70%;
+    }
+
+    /* How */
+
+    #how {
+        max-width: 75%;
+    }
+    
+    .content {
+        width: 40%;
+    }
+
+    .how-article:nth-child(even) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Pricing */
+
+    #pricing {
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    /* pricing */
+    .plans {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 28px;
+        align-items: end;
+    }
+
+    .plan {
+        max-width: 45%;
+    }
+
+    .plan:nth-child(even) {
+        background-color: #162044;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    /* hero */
+    .hero-info {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+        margin-left: auto;
+        gap: 40px;
+    }
+    
+    
+    .hero-title {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .description {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .hero-desc {
+        margin-bottom: 24px;
+        font-size: 16px;
+    }
+
+    /* how */
+    .how-article {
+        display: block;
+    }
+    
+    .group-img {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    
+    .content {
+        width: 100%;
+    }
+
+    /* Pricing */
+
+    .plan {
+        max-width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    /* header */
+    .navigation {
+        display: none;
+    }
+}
+
+
 
 
 
