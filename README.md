@@ -23,7 +23,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/ViktorMetodiev13/safia.git
+   git clone https://github.com/ViktorMetodiev13/Safia-Landing-Page
    ```
 
 2. **Navigate to the Project Directory**
