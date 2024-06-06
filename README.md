@@ -24,18 +24,21 @@ To get a local copy up and running, follow these simple steps:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/ViktorMetodiev13/safia.git
+   ```
 
 2. **Navigate to the Project Directory**
-
+   ```bash
+   cd safia
+   ```
 
 ## Usage
 
 To view the website, simply open the `index.html` file in your preferred web browser. No additional setup is required.
 
 1. **Open the Project Directory in Your Terminal**
-  ```bash
-  cd safia
-  ```
+     ```bash
+     cd safia
+     ```
 
 2. **Open `index.html` in Your Browser**
    ```bash
